@@ -1,0 +1,34 @@
+{
+  "name": "loglevel-plugin-server",
+  "version": "1.0.0",
+  "description": "Plugin for sending logs to the remote server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/gzoreslav/loglevel-plugin-server.git"
+  },
+  "keywords": [
+    "logger",
+    "loglevel",
+    "loglevel-plugin",
+    "remote"
+  ],
+  "author": {
+    "name": "Zoreslav Goral",
+    "email": "gzoreslav@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/gzoreslav/loglevel-plugin-server/issues"
+  },
+  "homepage": "https://github.com/gzoreslav/loglevel-plugin-server#readme"
+}
