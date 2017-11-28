@@ -1,6 +1,6 @@
 {
   "name": "loglevel-plugin-server",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Plugin for sending logs to the remote server",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gzoreslav/loglevel-plugin-server.git"
+    "url": "git+https://github.com/gzoreslav/loglevel-plugin-server.git"
   },
   "keywords": [
     "logger",
