@@ -1,6 +1,6 @@
 {
   "name": "loglevel-plugin-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plugin for sending logs to the remote server",
   "main": "index.js",
   "scripts": {
