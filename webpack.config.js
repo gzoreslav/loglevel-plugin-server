@@ -6,7 +6,8 @@ const libraryName = "loglevel-plugin-server";
 const outputFile = libraryName + ".min.js";
 
 module.exports = {
-    context: path.join(__dirname, 'src'),
+    devtool: "source-map",
+    context: path.join(__dirname, "src"),
     entry: {
         app: './index.js'
     },
@@ -31,7 +32,8 @@ module.exports = {
     resolve: {
         modules: [
             path.join(__dirname, "node_modules")
-        ]
+        ],
+        extensions: ["*", ".js"]
     },
     plugins: [
         new uglifyJsPlugin({
