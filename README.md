@@ -54,7 +54,7 @@ const options = {
     url: 'http://localhost:8080/'
 };
 loglevelPlugin(loglevel, options);
-logger.info('it is easy to use loglevel-plugin-server');
+loglevel.info('it is easy to use loglevel-plugin-server');
 ```
 
 ## License
