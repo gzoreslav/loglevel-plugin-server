@@ -16,7 +16,7 @@ loglevelPlugin(loglevel, options);
 
 ### Parameters
 
-`loglevel` - the root logger, imported from [https://raw.githubusercontent.com/pimterry/loglevel][`loglevel`] package
+`loglevel` - the root logger, imported from [`loglevel`][https://raw.githubusercontent.com/pimterry/loglevel] package
 
 `options` - plugin config object
 
