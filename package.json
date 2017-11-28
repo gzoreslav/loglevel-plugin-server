@@ -1,6 +1,6 @@
 {
   "name": "loglevel-plugin-server",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Plugin for sending logs to the remote server",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,6 +22,7 @@
     "email": "gzoreslav@gmail.com"
   },
   "license": "MIT",
+  "main": "lib/loglevel-plugin-server.min",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
